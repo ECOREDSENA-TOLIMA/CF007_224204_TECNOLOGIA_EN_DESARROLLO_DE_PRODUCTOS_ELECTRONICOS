@@ -1,15 +1,30 @@
 .banner-principal-decorativo
   &-1
+    animation: float2 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 9%
+    right: 43%
+    z-index: -1
+  &-2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    top: 62%
+    right: 71%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 12%
+    right: 17%
+  &-4
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    z-index: 2
+    width: 500px
+    top: 15%
+    right: 10%
 
+.banner-principal__img
+  z-index: 100
 
 @keyframes float1
   0%
@@ -17,3 +32,318 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateY(0px)
+
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+.tabla-b tbody tr td
+  border: 1px solid #D6D6D6
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
+  background-color: #E8E8E8
+.tabla-b caption
+  background-color: #ECD1E9
+.tabla-b img
+  width: 115px
+  margin: 0 auto
+  padding-top: 2px
+.tabla-b thead .column1 
+  width: 32%
+
+figcaption
+  font-weight: 500
+
+.tabs-c__tab--active span
+  color: $color-acento-contenido
+  font-weight: bold
+
+.tabs-c__content-item
+  background-color: lighten(#B3009D, 55%)
+
+.tabs-c__header
+  margin-bottom: 0
+
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row, p, h2, .titulo-segundo
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/introduccion/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/introduccion/fondo1.svg")
+.bg_grad-02
+  position: relative
+  .row, p, h2, .pasos-b, .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    // background-image: url("../assets/curso/tema1/fondo1.png")
+    background-repeat: no-repeat
+    background-size: cover
+    // @media screen and (max-width: 420px)
+    //   background-image: url("../assets/curso/tema1/fondo1.png")
+.bg_grad-03
+  position: relative
+  .row, p, h2, span, .bloque-texto-g
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    // background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    // @media screen and (max-width: 420px)
+    //   background-image: url("../assets/curso/tema2/fondo1.svg")
+.bg_grad-04
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 64%
+    left: 23%
+    width: 80%
+    height: 24%
+    background-color: #DDC3DA
+    @media screen and (max-width: 992px)
+      height: 35%
+      top: 67%
+      left: 9%
+      width: calc(100% + 3rem)
+.bg_grad-05
+  position: relative
+  .titulo-segundo, .row, p, .titulo-sexto
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/tema1/fondo_m.png")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/tema1/fondo_m.png")
+.bg_grad-06
+  position: relative
+  .titulo-segundo, .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 4rem)
+    background-image: url("../assets/curso/tema1/fondo_m.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/tema1/fondo_m.svg")
+.bg_grad-07
+  position: relative
+  .titulo-segundo, .row, p, .titulo-sexto, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/introduccion/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 420px)
+      background-image: url("../assets/curso/introduccion/fondo1.svg")  
+
+//COLOR CONTENIDOS Y TEXTO//
+.colr
+  color: #A50491
+  //FONDOS//
+.bgr
+  background-color: lighten(#B3009D, 55%)
+  &::before
+    background-color: #B3009D
+  &_1
+    background-color: #A1008D
+  &_2
+    background-color: #FAE69C
+    &::before
+      background-color: #FFCC26
+  &_3
+    background-color: $color-acento-botones 
+    width: fit-content
+    border-radius: 999px
+  &_4
+    background-color: #DBDBDB
+  &_5
+    background-color: #D9F8F2
+  &_6
+    .tabla-b__header
+      background-color: #007A64
+  &_7
+    &:nth-child(even)
+      background-color: #fff !important
+  &_8
+    background-color: #E8ECF0
+  &_9
+    .slyder-a__bullets__item--active
+      background-color: #3C0061 !important
+      border-color: #3C0061
+    .slyder-a__bullets__item
+      background-color: #B4A5C3
+  &_10
+    .tabs-a__tab
+      background-color: #E8E8E8
+    .tarjeta.color-acento-contenido--borde
+      border: none
+  &_11
+    background-color: #FFD947
+    border-radius: 10px
+  &_12
+    border: solid 10px #E1E1E1
+  &_13
+    background-color: #E8E8E8
+  &_14
+    background-color: #E8E8E8
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+    height: 120px
+    &:hover
+      background-color: #C2F3EB
+  &_15
+    // background-image: url("../assets/curso/tema2/fondo1.png")
+    background-repeat: no-repeat
+    background-size: cover 
+  &_16
+    background-color: #F5D0F0
+    &::before
+      background-color: #A50491
+
+//POSICION EN PANTALLA//
+.pst
+  position: absolute
+  top: 16px
+  left: -10px
+  @media screen and (max-width: 420px)
+    top: -8px
+    left: -33px
+    
+  &_1
+    position: absolute
+    bottom: 30px
+    right: 56%
+    @media screen and (max-width: 992px)
+      right: 21%
+      bottom: -3px
+  &_2
+    font-size: 0.8em
+  &_3
+    font-size: 8px
+    top: 7px !important
+
+//PasosB PERSONALIZADO//
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  background-color: #00CCA7
+  border-color: #00CCA7
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #00CCA7
+  height: 5px
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #00CCA7
+  height: 5px
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before
+  background-color: #00CCA7
+  height: 5px
+.pasos-b__header__item__line-container:after
+  height: 5px
+.pasos-b__header__item__line-container:before
+  height: 5px
+.pasos-b__header__item__dot
+  background-color: white
+.pasos-b__header__btn--left
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+.pasos-b__header__btn--right
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
