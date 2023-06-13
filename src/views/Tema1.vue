@@ -1,7 +1,8 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -14,7 +15,7 @@
       .col-12.col-md-6(data-aos="fade-left")
         p.mb-0 Existe una regulación en el montaje de circuitos y tarjetas electrónicas, las cuales van desde la estética en el diseño y la funcionalidad, hasta las condiciones de operación y afectación al medio ambiente y salud de las personas en contacto con el producto electrónico final.  
         br
-        .cajon.bgr.p-5.mb-3
+        .cajon.bgr_16.p-5.mb-3
           p.mb-0 Es obligatorio seguir estas regulaciones, sobre todo si el producto a desarrollar pretende ser comercializado, porque debe pasar por una serie de pruebas técnicas que tienen como propósito validar el cumplimiento de los parámetros establecidos en las normas.
         p.mb-0 Las normas aplicadas a la fabricación de circuitos impresos son conocidas como las normas IPC (Institute of Printed Circuit por sus siglas en inglés, creadas por la Association Connecting Electronics Industries). Algunas de ellas son de carácter privado y normalmente se requiere de licenciamiento para su consulta y aplicación, aunque hay procesos que son de seguimiento estándar y aplican para toda la fase de fabricación. <br><br> La figura 2 permite visualizar las diferentes normas y su aplicación.
 
@@ -168,31 +169,63 @@
       img.mb-4.mb-lg-0.col-lg-1.mx-auto(src="@/assets/curso/tema1/decorador-2.svg" data-aos="fade-right" style="max-width: 85px")
       .col-md-11.ps-lg-4(data-aos="fade-left")
         p.mb-0 Una simple inspección visual puede arrojar resultados de un producto no conforme. Soldaduras mal puestas, chasis mal fijado, tornillería fuera de parámetros, pueden arrojar la no satisfacción de un producto electrónico. 
-      
+
+    p.mb-5.text-center(data-aos="fade") A continuación se presentan algunos de los parámetros a tener en cuenta. 
+
     .d-flex.flex-wrap.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-3
         figure
-          img(src='@/assets/curso/tema1/img-1.svg', alt='Texto que describa la imagen' data-aos="fade-right")
-      .col-xl-8.pe-xl-4.order-2.order-xl-1
-        AcordionA(tipo="b" clase-tarjeta="tarjeta color-acordeon-a" data-aos="fade-right")
-          .row(titulo="Pistas conductoras" style="color: #FFFF")
-            p.col-xl-11 Es común cometer el error de las pistas conductoras en la placa, ya que  no debe haber pista con ángulos de 90°. 
-            img(src="@/assets/curso/tema1/img-2.png" data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img-1.svg', alt='Texto que describa la imagen' data-aos="zoom-in-up" style="max-width: 250px")
+      .col-xl-9.pe-xl-1.order-2.order-xl-1
+        AcordionA.mb-5.bgr_7(tipo="b" clase-tarjeta="tarjeta color-acordeon-a" data-aos="fade-right")
+          .row(titulo="Pistas conductoras" style="color: #FFFF").p-4
+            .col-md-6.mb-4.mb-md-0
+              br
+              br
+              br
+              br
+              p Es común cometer el error de las pistas conductoras en la placa, ya que  no debe haber pista con ángulos de 90°. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema1/img-2.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
+                
+          .row(titulo="Distribución de componentes").p-4
+            .col-md-6.mb-4.mb-md-0
+              br
+              br
+              p Otro parámetro para tener en cuenta es la distribución de los componentes electrónicos en la placa, muchos software de modelado de tarjetas lo hacen automáticamente y algunos parámetros ya están establecidos, sin embargo muchas veces se hace necesario reordenar algunos componentes, sobre todo el de separar la parte análoga de la parte digital, en las tarjetas que contienen estos dos tipos de componentes.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema1/img-3.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
 
-          .row(titulo="Distribución de componentes")
-            p.col-xl-10 La Constitución Nacional incorpora este principio al imponer al Estado, la obligación de proteger las riquezas culturales y naturales (Art. 8), así como el deber del ciudadano de proteger los recursos naturales y de velar por la conservación del ambiente (Art. 95).
-          
-          .row(titulo="Planos de tierra")
-            p.col-xl-11 Definido como el desarrollo que conduce al crecimiento económico, a la elevación de la calidad de vida y al bienestar social, sin agotar la base de los recursos naturales renovables en que se sustenta, ni deteriorar el medio ambiente o el derecho de las generaciones futuras a utilizarlo para la satisfacción de sus propias necesidades.
+          .row(titulo="Planos de tierra").p-4
+            .col-md-6.mb-4.mb-md-0
               br
+              p Los planos de tierra deben estar bien definidos. Esta parte es muy importante, ya que estos ayudan al mejoramiento de la compatibilidad electromagnética como también en el acople de la red, el cual a su vez es fundamental para eliminar los ruidos producidos en la fuente de poder.
+              p La pista de tierra en paralelo con la pista de alimentación de la fuente, proporcionan un capacitor que ayuda al acople de la red. Este sistema funciona mejor en placas multicapa.
+            .col-md-6
               br
-              |La Constitución Nacional en desarrollo de este principio, consagra en su Art. 80 que: “El Estado planificará el manejo y aprovechamiento de los recursos naturales para garantizar su desarrollo sostenible, su conservación o sustitución. Además, deberá prevenir y controlar los factores de deterioro ambiental, imponer las sanciones legales y exigir la reparación de los daños causados. Así mismo, cooperará con otras naciones en la protección de los ecosistemas situados en zonas fronterizas”. 
+              figure
+                img(src='@/assets/curso/tema1/img-4.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
 
-          .row(titulo="Apantallamiento")
-            p.col-xl-11 Definido como el desarrollo que conduce al crecimiento económico, a la elevación de la calidad de vida y al bienestar social, sin agotar la base de los recursos naturales renovables en que se sustenta, ni deteriorar el medio ambiente o el derecho de las generaciones futuras a utilizarlo para la satisfacción de sus propias necesidades.
-              br
-              br
-              |La Constitución Nacional en desarrollo de este principio, consagra en su Art. 80 que: “El Estado planificará el manejo y aprovechamiento de los recursos naturales para garantizar su desarrollo sostenible, su conservación o sustitución. Además, deberá prevenir y controlar los factores de deterioro ambiental, imponer las sanciones legales y exigir la reparación de los daños causados. Así mismo, cooperará con otras naciones en la protección de los ecosistemas situados en zonas fronterizas”. 
+          div(titulo="Apantallamiento").p-4
+            .col-lg-12
+              p En tarjetas dedicadas a la transmisión y recepción de señales, es importante contar con un apantallamiento, ya que esta pantalla, es la que no permite la emisión ni la recepción de ruido electromagnético.
+            .row.justify-content-center
+              .col-lg-10
+                .row  
+                  .col-lg-6
+                    figure
+                      img(src='@/assets/curso/tema1/img-5.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
+                  .col-lg-6
+                    figure
+                      img(src='@/assets/curso/tema1/img-6.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
+            br
+            .col-lg-12  
+              p Una pantalla no es más que una protección metálica conectada al polo a tierra por lo que envía el ruido eléctrico hacia tierra, disminuyendo la emisión de electromagnetismo e impidiendo que el externo llegue a los circuitos. Una tarjeta dedicada a comunicaciones normalmente debe venir con este sistema, el no tenerlo es causal de no conformidad.
+
+    .row
+      p.mb-5 En equipos Biomédicos, las normas son extremas, estas deben regirse a normatividad especial, lo mismo que para la aeronáutica. Normalmente el desarrollo de estos productos requiere de un estudio especializado, con los permisos debidos.
 
 
 </template>
@@ -261,4 +294,11 @@ export default {
 
 .acordion__accion__btn--b
   background: #FFD947
+
+.p-4
+  background-color: #FFFF
+  padding-bottom: 1rem !important
+
+.acordion__titulo h3
+  color: #FFFF
 </style>

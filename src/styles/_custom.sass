@@ -25,6 +25,9 @@
 
 .banner-principal__img
   z-index: 100
+  @media screen and (min-width: 576px)
+    padding-top: 1rem !important
+    padding-bottom: 1rem !important
 
 @keyframes float1
   0%
@@ -249,9 +252,9 @@ figcaption
   &_1
     background-color: #A1008D
   &_2
-    background-color: #FAE69C
+    background-color: lighten(#B3009D, 55%)
     &::before
-      background-color: #FFCC26
+      background-color: #B3009D
   &_3
     background-color: $color-acento-botones 
     width: fit-content
@@ -260,6 +263,8 @@ figcaption
     background-color: #DBDBDB
   &_5
     background-color: #D9F8F2
+    &::before
+      background-color:#00CCA7
   &_6
     .tabla-b__header
       background-color: #007A64
@@ -301,6 +306,14 @@ figcaption
     background-color: #F5D0F0
     &::before
       background-color: #A50491
+  &_17
+    background-color: lighten(#D9F8F2, 55%)
+    &::before
+      background-color: #D9F8F2
+  &_18
+    background-color: lighten(#B3009D, 55%)
+    &::before
+      background-color: #B3009D
 
 //POSICION EN PANTALLA//
 .pst
@@ -347,3 +360,16 @@ figcaption
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
 .pasos-b__header__btn--right
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+
+// Cajon Texto -------------------------------
+
+.bloque-texto-a.color-acento-botones:before
+  background-color: #E8E8E8
+
+// Citas
+// .bloque-texto-d
+//   border-top: 1px solid $color-primario !important
+.bloque-texto-d.color-acento-botones:before
+  background-color: #D9F8F2
+.bloque-texto-d i
+  color: $color-acento-contenido
