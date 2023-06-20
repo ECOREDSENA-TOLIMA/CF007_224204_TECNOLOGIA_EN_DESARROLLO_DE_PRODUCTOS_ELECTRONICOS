@@ -3,11 +3,10 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p A continuación, se describe el tema principal del Componente formativo CF07 Inspección de tarjetas electrónicas basado en los conceptos relacionados con el ensamble de tarjetas electrónicas teniendo en cuenta: las normas y técnicas que aplican y los procedimientos para el ensamble, la seguridad y la normativa vigente, la definición de los riesgos en el proceso de ensamble enfocados en buscar proteger la vida y conservar el medio ambiente.
+    
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto

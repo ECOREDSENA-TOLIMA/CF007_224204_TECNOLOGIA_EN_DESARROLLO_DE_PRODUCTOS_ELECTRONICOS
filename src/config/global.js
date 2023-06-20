@@ -167,14 +167,14 @@ export default {
       referencia:
         'Resolución 5018 de 2019. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el trabajo en los Procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Mayo 15, 2021.',
       tipo: 'Texto',
-      descarga: 'https://safetya.co/normatividad/resolucion-5018-de-2019/',
+      link: 'https://safetya.co/normatividad/resolucion-5018-de-2019/',
     },
     {
       tema: 'Seguridad y Salud en el trabajo',
       referencia:
         'Ley 1552 de 2012. [Ministerio del Trabajo]. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012.',
       tipo: 'Texto',
-      descarga:
+      link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_1562_2012.html#:~:text=Tiene%20por%20objeto%20mejorar%20las,trabajadores%20en%20todas%20las%20ocupaciones.',
     },
     {
@@ -182,7 +182,7 @@ export default {
       referencia:
         'Resolución 0312 de febrero de 2019. [Ministerio del Trabajo]. Por la cual se definen los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST. Febrero 13, 2019.',
       tipo: 'Texto',
-      descarga:
+      link:
         'https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
     },
     {
@@ -190,7 +190,7 @@ export default {
       referencia:
         'Mateus Palomino, L. (2016). <em>Aplicación del Sistema de Gestión de la Seguridad y Salud en el trabajo. SENA.</em>',
       tipo: 'Presentación con diapositivas',
-      descarga:
+      link:
         'https://www.slideshare.net/diegotorres/aplicacin-del-sgsst-aplicacin-del-sistema-de-gestin-de-la-seguridad-y-salud-en-el-trabajo',
     },
   ],
@@ -264,9 +264,8 @@ export default {
   referencias: [
     {
       referencia:
-        'Biegelmeier, G. (1986). Efectos de la corriente eléctrica en humanos y ganado. VDE-Verlag',
-      link:
-        'Jorge Valencia Cuesta & Cia. SAS. (s.f.). <em>Bolsas antiestáticas.</em> https://www.controlestatica.com/bolsas-antiestaticas.',
+        'Biegelmeier, G. (1986). Efectos de la corriente eléctrica en humanos y ganado. VDE-Verlag. Jorge Valencia Cuesta & Cia. SAS. (s.f.). <em>Bolsas antiestáticas.</em> ',
+      link: 'https://www.controlestatica.com/bolsas-antiestaticas.',
     },
     {
       referencia:
@@ -276,9 +275,8 @@ export default {
     },
     {
       referencia:
-        'Pallás, R. (2007). <em>Instrumentos electrónicos básicos.</em> Alfaomega.',
-      link:
-        'Real Academia de la Lengua Española. (2020). Diccionario de la lengua española. https://dle.rae.es/electrost%C3%A1tico',
+        'Pallás, R. (2007). <em>Instrumentos electrónicos básicos.</em> Alfaomega. Real Academia de la Lengua Española. (2020). Diccionario de la lengua española.',
+      link: 'https://dle.rae.es/electrost%C3%A1tico',
     },
     {
       referencia:

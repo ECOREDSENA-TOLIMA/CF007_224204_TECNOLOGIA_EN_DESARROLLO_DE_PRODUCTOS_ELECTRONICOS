@@ -81,27 +81,80 @@
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
       h5 Figura 11.
       span <em>Torre panorámica Tokio</em>
+
     
     .row.mb-5
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="zoom-in")
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema2/img-19.png', alt='Texto que describa la imagen')
+
       .col-12.col-md-7(data-aos="fade-left")
         p.mb-0 Todo equipo electrónico, necesita de un fluido eléctrico para su funcionamiento. Por regla este fenómeno físico lleva asociado un campo magnético; es decir, todo electrón fluyendo a través de un conductor lleva asociado un campo magnético, el cual se manifiesta como líneas de flujo magnético alrededor del conductor. Fue Michael Faraday en 1821 quien realizó los estudios que llevaron a entender mejor este fenómeno y a darle una utilidad práctica, revolucionando por completo el mundo que conocíamos hasta el momento.
-        .col-12.col-md-6
-          .cajon.bgr_5.p-4.mt-3
-            p Ahora bien, lo contrario también es cierto, un campo magnético en movimiento cruzando a un conductor, ocasionará que los electrones se muevan. Este fenómeno tiene mucha aplicación y fue lo que permitió la construcción de los generadores eléctricos así como también la trasmisión de señales a través del espacio vacío; esto dio origen a las telecomunicaciones.
+        .col-12.col-md-12
+          .cajon.bgr_5.p-4.mt-4
+            p Ahora bien, lo contrario también es cierto, un campo magnético en movimiento cruzando a un conductor, ocasionará que los electrones se muevan. Este fenómeno tiene mucha aplicación y fue lo que permitió la construcción de los generadores eléctricos así como también la trasmisión de señales a través del espacio vacío; esto dio origen a las telecomunicaciones.      
       .col-12.col-md-9.mb-3.mb-md-0.mt-3(data-aos="fade-right")
         p Resulta que las emisiones de señales pueden ser perjudiciales para otros equipos, si no son controladas; son múltiples la señales electromagnéticas emitidas día a día, solo imagina, cada emisora de radio, cada canal de televisión, cada aparato de celular, funcionan por señales que viajan en el espacio, es natural pensar que la señal que emite mi celular puede afectar al de mi compañero, o a otro equipo como el televisor o radio, es así en realidad, pero el desarrollador de estos equipos debe tener en cuenta estos parámetros e incluirlos en el diseño. A continuación en la figura 4 se presenta un ejercicio que se puede realizar como comprobación de lo que se ha expuesto.
-    
-    .row.mb-5 
-      .col-12.col-md-6(data-aos="fade-left")
+      .col-12.col-md-3.mt-3(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img-20.svg', alt='Texto que describa la imagen' style="max-width: 250px")
+          img(src='@/assets/curso/tema2/img-20.svg', alt='Texto que describa la imagen' data-aos="zoom-in-up")
+
+    .col-xl-10.mx-auto.mb-5
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+        h5 Figura 12.
+        span <em>Ejercicio</em>
+      .d-flex.flex-wrap.p-4.edit-bg-t2(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}"
+        data-aos="fade-right"
+      )
+        .col-lg-7.order-2.order-lg-1
+          .p-3
+            h4.mb-4(style="color: #00CCA7") Ejercicio          
+            p.mb-0(style="color: #FFFF") Encender el radio de la casa y sintonizar una frecuencia que no esté emitiendo nada, es decir, desplazarse a una frecuencia que no esté siendo utilizada; este experimento funciona mejor en Banda A.M.
+            br
+            p.mb-0(style="color: #FFFF") Ahora se acerca el control remoto de un televisor y se presiona cualquier tecla. Se notará que, aunque el control no entra en contacto con el radio, se puede escuchar un sonido cada vez que se presiona una tecla, haciendo evidente que el control remoto del televisor interfiere con el radio. Si está lloviendo, también se puede observar que cada vez que hay un relámpago, este interfiere en el radio. 
+        img.col-lg-4.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2.position-relative(src="@/assets/curso/temas/tema2/img-21.svg" style="right: 0; max-width: 400px; z-index: 1" data-aos="zoom-in-up")
+
+    h4.mb-5.text-center(data-aos="fade") Todo diseñador de equipos electrónicos debe tener en cuenta estos aspectos:
+    
+    .row.mb-5.justify-content-center.align-items-center(data-aos="zoom-in-up")
+      .col-12.col-md-3.mb-3.mb-md-0
+        .bgr_19.p-4.h-100
+          br
+          figure.mb-3.d-flex.justify-content-center
+            img.img80(src='@/assets/curso/tema3/t3-1.svg', alt='Texto que describa la imagen')
+          br
+          p.mb-0.text-center Asegurar que las señales electromagnéticas en su trayectoria no sean afectadas por perturbaciones electromagnéticas.
+      .col-12.col-md-3.mb-3.mb-md-0
+        .bgr_19.p-4.h-100
+          br
+          figure.mb-3.d-flex.justify-content-center
+            img.img80(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+          br 
+          p.mb-0.text-center Evitar que se generen perturbaciones electromagnéticas.
+          br
+          br
+      .col-12.col-md-3.mb-3.mb-md-0
+        .bgr_19.p-4.h-100
+          br
+          figure.mb-3.d-flex.justify-content-center
+            img.img80(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')  
+          br
+          p.mb-0.text-center Minimizar la sensibilidad a las perturbaciones electromagnéticas.
+          br
+          br
+
+    .row.mb-5
+      .col-12.col-md-4.mb-3.mb-md-0
+        .cajon.bgr_16.p-4.mt-1
+          p Es aquí donde surge el estudio de la compatibilidad electromagnética, que busca minimizar los problemas ocasionados por las emisiones electromagnéticas en el diseño de tarjetas de circuito impreso. 
+      .col-12.col-md-4.mb-3.mb-md-0
+        figure
+          img(src="@/assets/curso/tema3/img-23.png", alt="Texto que describa la imagen" data-aos="zoom-in-up")
+      .col-12.col-md-4
+        span Adicional a estos aspectos, es importante considerar la distribución óptima de los componentes con rutas de conexión y sistemas de tierra adecuada. Esto debe optimizarse en los diseños donde se trabajan con altas frecuencias, y en el que los problemas de acoplamientos electromagnéticos son más comunes, por lo que siempre hay que reforzar con sistemas de apantallamiento. Es necesario entonces recordar y considerar tanto la radiación emitida, como la absorbida.
 
 
-
-          
 </template>
 
 <script>
@@ -121,4 +174,11 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.edit-bg-t2
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  border-radius: 26px
+  position: relative
+</style>
