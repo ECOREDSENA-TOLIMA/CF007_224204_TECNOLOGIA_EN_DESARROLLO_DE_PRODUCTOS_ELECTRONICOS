@@ -137,7 +137,7 @@
               p.mb-0.fw-bold.text-center.mb-2 Norma IPC 2221  
               p.mb-0.fw.text-center.mb-2 Diseño de placas de <br>circuito impreso.
 
-          img.col-lg-4.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2.banner-principal-decorativo-4.position-relative(src="@/assets/curso/temas/tema2/img-4.svg" style="right: 0; max-width: 300px")
+          img.col-lg-4.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2.banner-principal-decorativo-4.position-relative(src="@/assets/curso/temas/tema2/img-4.svg" style="right: 0; max-width: 250px")
 
     Separador
 
