@@ -93,8 +93,8 @@
         .col-12.col-md-12
           .cajon.bgr_5.p-4.mt-4
             p Ahora bien, lo contrario también es cierto, un campo magnético en movimiento cruzando a un conductor, ocasionará que los electrones se muevan. Este fenómeno tiene mucha aplicación y fue lo que permitió la construcción de los generadores eléctricos así como también la trasmisión de señales a través del espacio vacío; esto dio origen a las telecomunicaciones.      
-      .col-12.col-md-9.mb-3.mb-md-0.mt-3(data-aos="fade-right")
-        p Resulta que las emisiones de señales pueden ser perjudiciales para otros equipos, si no son controladas; son múltiples la señales electromagnéticas emitidas día a día, solo imagina, cada emisora de radio, cada canal de televisión, cada aparato de celular, funcionan por señales que viajan en el espacio, es natural pensar que la señal que emite mi celular puede afectar al de mi compañero, o a otro equipo como el televisor o radio, es así en realidad, pero el desarrollador de estos equipos debe tener en cuenta estos parámetros e incluirlos en el diseño. A continuación en la figura 4 se presenta un ejercicio que se puede realizar como comprobación de lo que se ha expuesto.
+      .col-12.col-md-9.mb-3.mb-md-0.py-5.my-5(data-aos="fade-right")
+        p Resulta que las emisiones de señales pueden ser perjudiciales para otros equipos, si no son controladas; son múltiples la señales electromagnéticas emitidas día a día, solo imagina, cada emisora de radio, cada canal de televisión, cada aparato de celular, funcionan por señales que viajan en el espacio, es natural pensar que la señal que emite mi celular puede afectar al de mi compañero, o a otro equipo como el televisor o radio, es así en realidad, pero el desarrollador de estos equipos debe tener en cuenta estos parámetros e incluirlos en el diseño. A continuación en la figura 12 se presenta un ejercicio que se puede realizar como comprobación de lo que se ha expuesto.
       .col-12.col-md-3.mt-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img-20.svg', alt='Texto que describa la imagen' data-aos="zoom-in-up")

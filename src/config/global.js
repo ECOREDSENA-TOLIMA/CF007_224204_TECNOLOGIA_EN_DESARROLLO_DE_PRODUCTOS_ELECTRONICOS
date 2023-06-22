@@ -159,18 +159,18 @@ export default {
       tema: 'Normativa técnica',
       referencia:
         'IPC (2021). <em>IPC International, Inc. Normas IPC. https://www.ipc.org/</em>',
-      tipo: 'Sitio web de las Normas Técnicas',
+      tipo: 'Sitio web de las normas técnicas',
       link: 'https://www.ipc.org/',
     },
     {
-      tema: 'Seguridad y Salud en el trabajo',
+      tema: 'Seguridad y dalud en el trabajo',
       referencia:
         'Resolución 5018 de 2019. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el trabajo en los Procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Mayo 15, 2021.',
       tipo: 'Texto',
       link: 'https://safetya.co/normatividad/resolucion-5018-de-2019/',
     },
     {
-      tema: 'Seguridad y Salud en el trabajo',
+      tema: 'Seguridad y salud en el trabajo',
       referencia:
         'Ley 1552 de 2012. [Ministerio del Trabajo]. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012.',
       tipo: 'Texto',
@@ -178,7 +178,7 @@ export default {
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_1562_2012.html#:~:text=Tiene%20por%20objeto%20mejorar%20las,trabajadores%20en%20todas%20las%20ocupaciones.',
     },
     {
-      tema: 'Seguridad y Salud en el trabajo',
+      tema: 'Seguridad y salud en el trabajo',
       referencia:
         'Resolución 0312 de febrero de 2019. [Ministerio del Trabajo]. Por la cual se definen los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST. Febrero 13, 2019.',
       tipo: 'Texto',
@@ -186,7 +186,7 @@ export default {
         'https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
     },
     {
-      tema: 'Seguridad y Salud en el trabajo',
+      tema: 'Seguridad y salud en el trabajo',
       referencia:
         'Mateus Palomino, L. (2016). <em>Aplicación del Sistema de Gestión de la Seguridad y Salud en el trabajo. SENA.</em>',
       tipo: 'Presentación con diapositivas',

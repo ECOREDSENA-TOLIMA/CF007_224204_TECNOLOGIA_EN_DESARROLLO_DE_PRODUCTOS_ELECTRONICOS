@@ -50,7 +50,7 @@
           p El sistema de implementación de seguridad física debe involucrar tanto a la persona como a los equipos, ya que un equipo o herramienta en mal estado, también influye en la salud de las personas, es más, se extiende al plan de protección de datos de la empresa: todo aquello que involucre un riesgo físico para un equipo, también lo es para las personas aunque sea de manera indirecta. De ahí la importancia del uso adecuado de los elementos de protección personal - EPP.
           p Todos los requerimientos para la implementación de EPP en los lugares de trabajo para un ambiente saludable se encuentran contemplados en la Ley 9 de enero 24 de 1979 (Título III, artículos 122 a 124) y en la Resolución 2400 de mayo 22 de 1979 (Título IV, Capitulo II, artículos 176 a 201).
       
-      p Es importante saber seleccionar los elementos de protección, porque un mal uso de ellos puede incurrir en accidentes. Dentro de los elementos más comunes se encuentran, ver figura 3:
+      p Es importante saber seleccionar los elementos de protección, porque un mal uso de ellos puede incurrir en accidentes. Dentro de los elementos más comunes se encuentran, ver figura 7:
 
       .col-xl-12.mx-auto.mb-5
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -63,87 +63,51 @@
             SlyderF.col-12.col-lg-12.my-auto.order-2.order-lg-1(columnas="col-12 col-xl-6")
               .tarjeta.color-acento-botones.p-3(style="background-color: #FDF2C8")
                 .row.justify-content-center
-                  .col-8
-                    br
+                  .col-8.mt-5.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-7.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw-bold.text-center.mb-2 Protección para el oído
-                p.mb-0.fw.text-center.mb-2 Protectores auditivos de inserción, tipo tapón desechable, reutilizable o pre-moldeable. Supraaurales, tipo disco plano. Supraaurales, tipo banda ajustable. Circumaurales, tipo orejera universal, tipo orejeras con arnés, fijo de cabeza, fijo de <br>barbilla, fijo de nuca. Tipo cascos antirruido, tipo orejeras <br>acopladas a casco. Circuitos electrónicos incorporados, del <br>tipo dependientes del nivel y con aparatos de <br>intercomunicación.
-                br
-                br
-
+                p.mb-0.fw-bold.text-center.mb-3 Protección para el oído
+                p.mb-0.fw.text-center.mb-2 Protectores auditivos de inserción, tipo tapón desechable, reutilizable o pre-moldeable. Supraaurales, tipo disco plano. Supraaurales, tipo banda ajustable. Circumaurales, tipo orejera universal, tipo orejeras con arnés, fijo de cabeza, fijo de barbilla, fijo de nuca. Tipo cascos antirruido, tipo orejeras acopladas a casco. Circuitos electrónicos incorporados, del tipo dependientes del nivel y con aparatos de intercomunicación.
+              
               .tarjeta.color-acento-botones.p-3(style="background-color: #7DE5D2")
                 .row.justify-content-center
-                  .col-8
-                    br
-                    br
-                    br
+                  .col-8.mt-5.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-8.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw-bold.text-center.mb-2 Protección para la cabeza
-                p.mb-0.fw.text-center.mb-2 Cascos de seguridad, los cuales están clasificados en categoría A, B, C y D. Prendas de protección para la cabeza, tales como, gorros, gorras, sombreros, de tejido recubierto. Cascos para usos especiales en fuego, cascos reflectantes.
-                br
-                br
-                
+                p.mb-0.fw-bold.text-center.mb-3 Protección para la cabeza
+                p.mb-0.fw.text-center.mb-2 Cascos de seguridad, los cuales están clasificados en categoría A, B, C y D. Prendas de protección para la cabeza, tales como, gorros, gorras, sombreros, de tejido recubierto. Cascos para usos especiales en fuego, cascos reflectantes.                
+              
               .tarjeta.color-acento-botones.p-3(style="background-color: #7DE5D2")
                 .row.justify-content-center
-                  .col-8
-                    br
-                    br
-                    br
+                  .col-8.mt-5.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-9.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw-bold.text-center.mb-2 Protección para los ojos y la cara
+                p.mb-0.fw-bold.text-center.mb-3 Protección para los ojos y la cara
                 p.mb-0.fw.text-center.mb-2 Lentes de seguridad tipo montura universal, montura integral, montura cazoletas. Pantallas faciales. Pantallas para soldadores de mano, de cabeza, acoplables a casco de protección. Lentes para usos especiales para trabajos con Rayos X, Rayos Ultravioleta, agentes biológicos y químicos.
-                br
-                br
 
               .tarjeta.color-acento-botones.p-3(style="background-color: #7DE5D2")
                 .row.justify-content-center
-                  .col-8
-                    br
-                    br
-                    br
+                  .col-8.mt-5.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-10.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw-bold.text-center.mb-2 Protección para las vías respiratorias
+                p.mb-0.fw-bold.text-center.mb-3 Protección para las vías respiratorias
                 p.mb-0.fw.text-center.mb-2 Equipos filtrantes de partículas molestas, nocivas, tóxicas o radiactivas; filtrantes combinados frente a gases y vapores; suministradores de aire, con casco o pantalla para soldadura, con máscara amovible para soldadura, para trabajos bajo el agua.
-                br
-                br
 
               .tarjeta.color-acento-botones.p-3(style="background-color: #7DE5D2")
                 .row.justify-content-center
-                  .col-8
-                    br
-                    br
-                    br
+                  .col-8.mt-5.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-11.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw-bold.text-center.mb-2 Protección de manos y brazos  
+                p.mb-0.fw-bold.text-center.mb-3 Protección de manos y brazos  
                 p.mb-0.fw.text-center.mb-2 Guantes contra vibración, guantes contra riesgo mecánico, riesgo químico, riesgo biológico, riesgo eléctrico, riesgo de origen térmico y radiaciones, manoplas.
-                br
-                br
 
               .tarjeta.color-acento-botones.p-3(style="background-color: #7DE5D2")
                 .row.justify-content-center
-                  .col-8
-                    br
-                    br
-                    br
+                  .col-8.mt-5.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-12.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw-bold.text-center.mb-2 Protección de piernas 
+                p.mb-0.fw-bold.text-center.mb-3 Protección de piernas 
                 p.mb-0.fw.text-center.mb-2 Calzado de seguridad, calzado ocupacional  para riesgo eléctrico y químico; botas de goma o caucho,  protección contra el calor o el frío, rodilleras.
-                br
-                br
 
               .tarjeta.color-acento-botones.p-3(style="background-color: #7DE5D2")
                 .row.justify-content-center
-                  .col-8
-                    br
+                  .col-8.mb-3
                     img.mx-auto(src='@/assets/curso/temas/tema2/sl-13.svg' style="max-width: 60%")
-                    br
-                p.mb-0.fw.text-center.mb-2 Adicionalmente existen protectores de la piel como cremas de protección contra radiaciones por trabajo al aire libre; protectores del tronco y el abdomen como, chalecos, chaquetas y cotonas de protección contra el riesgo mecánico, químico, resistentes a la temperatura, chalecos salvavidas, delantales de protección contra los rayos x , cinturones de sujeción del tronco, equipos de protección contra las caídas distinto nivel tipo arnés, cinturones de posicionamiento, dispositivos de caídas de tipo deslizante, dispositivos con amortiguador, ropa de protección contra proyecciones de metales en fusión y radiaciones infrarrojas.
+                p.mb-0.fw.text-center.mb-3 Adicionalmente existen protectores de la piel como cremas de protección contra radiaciones por trabajo al aire libre; protectores del tronco y el abdomen como, chalecos, chaquetas y cotonas de protección contra el riesgo mecánico, químico, resistentes a la temperatura, chalecos salvavidas, delantales de protección contra los rayos x , cinturones de sujeción del tronco, equipos de protección contra las caídas distinto nivel tipo arnés, cinturones de posicionamiento, dispositivos de caídas de tipo deslizante, dispositivos con amortiguador, ropa de protección contra proyecciones de metales en fusión y radiaciones infrarrojas.
 
       Separador
 

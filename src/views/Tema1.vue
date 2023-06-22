@@ -17,7 +17,7 @@
         br
         .cajon.bgr_16.p-5.mb-3
           p.mb-0 Es obligatorio seguir estas regulaciones, sobre todo si el producto a desarrollar pretende ser comercializado, porque debe pasar por una serie de pruebas técnicas que tienen como propósito validar el cumplimiento de los parámetros establecidos en las normas.
-        p.mb-0 Las normas aplicadas a la fabricación de circuitos impresos son conocidas como las normas IPC (Institute of Printed Circuit por sus siglas en inglés, creadas por la Association Connecting Electronics Industries). Algunas de ellas son de carácter privado y normalmente se requiere de licenciamiento para su consulta y aplicación, aunque hay procesos que son de seguimiento estándar y aplican para toda la fase de fabricación. <br><br> La figura 2 permite visualizar las diferentes normas y su aplicación.
+        p.mb-0 Las normas aplicadas a la fabricación de circuitos impresos son conocidas como las normas IPC <em>(Institute of Printed Circuit</em> por sus siglas en inglés, creadas por la <em>Association Connecting Electronics Industries).</em> Algunas de ellas son de carácter privado y normalmente se requiere de licenciamiento para su consulta y aplicación, aunque hay procesos que son de seguimiento estándar y aplican para toda la fase de fabricación. <br><br> La figura 2 permite visualizar las diferentes normas y su aplicación.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
       h5 Figura 2
@@ -105,57 +105,36 @@
             .tarjeta.color-acento-botones.p-3(style="background-color: #D9F8F2")
               .row.justify-content-center
                 .col-8
-                  br
                   img.mx-auto(src='@/assets/curso/temas/tema2/sl-1.svg' style="max-width: 95px")
-                  br
-                  br
-              p.mb-0.fw-bold.text-center.mb-2 Norma IPC 600
-              br
+              p.mb-0.fw-bold.text-center.mb-2.mt-5 Norma IPC 600
               p.mb-0.fw.text-center.mb-2 Para la Inspección de <br>PCB sin ensamblar. <br>Esta es usada por todos los fabricantes de circuito impreso o PCB.
               
             .tarjeta.color-acento-botones.p-3(style="background-color: #FDF2C8")
               .row.justify-content-center
                 .col-8
-                  br
                   img.mx-auto(src='@/assets/curso/temas/tema2/sl-1.svg' style="max-width: 95px")
-                  br
-                  br
-              p.mb-0.fw-bold.text-center.mb-2 Norma JSTD-001
-              br
+              p.mb-0.fw-bold.text-center.mb-2.mt-5 Norma JSTD-001
               p.mb-0.fw.text-center.mb-2 Para requerimientos de <br>soldaduras, fluxes, <br>limpiadores. Esta la <br>usan los soldadores y <br>ensambladores.
               
             .tarjeta.color-acento-botones.p-3(style="background-color: #FDF2C8")
               .row.justify-content-center
                 .col-8
-                  br
                   img.mx-auto(src='@/assets/curso/temas/tema2/sl-1.svg' style="max-width: 95px")
-                  br
-                  br
-              p.mb-0.fw-bold.text-center.mb-2 Norma IPC 620 
-              br
+              p.mb-0.fw-bold.text-center.mb-2.mt-5 Norma IPC 620 
               p.mb-0.fw.text-center.mb-2 Para aceptación de cables <br>y arneses, de <br>industrias como <br>maquinaria, automotriz <br>y espacial.
               
             .tarjeta.color-acento-botones.p-3(style="background-color: #FDF2C8")
               .row.justify-content-center
                 .col-8
-                  br
                   img.mx-auto(src='@/assets/curso/temas/tema2/sl-1.svg' style="max-width: 95px")
-                  br
-                  br
-              p.mb-0.fw-bold.text-center.mb-2 Norma IPC 7711/21  
-              br
+              p.mb-0.fw-bold.text-center.mb-2.mt-5 Norma IPC 7711/21  
               p.mb-0.fw.text-center.mb-2 Para reparación, <br>retrabajo o <br>modificación de placas <br>de circuito impreso.
 
             .tarjeta.color-acento-botones.p-3(style="background-color: #FDF2C8")
-              .row.justify-content-center
+              .row.justify-content-center.mt-5
                 .col-8
-                  br
-                  br
                   img.mx-auto(src='@/assets/curso/temas/tema2/sl-1.svg' style="max-width: 95px")
-                  br
-                  br
               p.mb-0.fw-bold.text-center.mb-2 Norma IPC 2221  
-              br
               p.mb-0.fw.text-center.mb-2 Diseño de placas de <br>circuito impreso.
 
           img.col-lg-4.mx-auto.mb-4.mb-lg-0.order-1.order-lg-2.banner-principal-decorativo-4.position-relative(src="@/assets/curso/temas/tema2/img-4.svg" style="right: 0; max-width: 300px")
@@ -193,7 +172,7 @@
             .col-md-6.mb-4.mb-md-0
               br
               br
-              p Otro parámetro para tener en cuenta es la distribución de los componentes electrónicos en la placa, muchos software de modelado de tarjetas lo hacen automáticamente y algunos parámetros ya están establecidos, sin embargo muchas veces se hace necesario reordenar algunos componentes, sobre todo el de separar la parte análoga de la parte digital, en las tarjetas que contienen estos dos tipos de componentes.
+              p Otro parámetro para tener en cuenta es la distribución de los componentes electrónicos en la placa, muchos <em>software</em> de modelado de tarjetas lo hacen automáticamente y algunos parámetros ya están establecidos, sin embargo muchas veces se hace necesario reordenar algunos componentes, sobre todo el de separar la parte análoga de la parte digital, en las tarjetas que contienen estos dos tipos de componentes.
             .col-md-6
               figure
                 img(src='@/assets/curso/tema1/img-3.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
