@@ -163,7 +163,7 @@ export default {
       link: 'https://www.ipc.org/',
     },
     {
-      tema: 'Seguridad y dalud en el trabajo',
+      tema: 'Seguridad y salud en el trabajo',
       referencia:
         'Resolución 5018 de 2019. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el trabajo en los Procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Mayo 15, 2021.',
       tipo: 'Texto',

@@ -10,7 +10,7 @@
       <rect id="Rectángulo_336772" data-name="Rectángulo 336772" width="400" height="32" fill="#3c0061"/>
       <rect id="Rectángulo_336753" data-name="Rectángulo 336753" width="400" height="21" transform="translate(0 318.096)" fill="#fff"/>
       <text id="Nota._Tomada_de_CIFPN1_s.f._." data-name="Nota. Tomada de CIFPN1 (s.f.)." transform="translate(7 320.096)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="13">Nota. Tomada de CIFPN1 (s.f.).</tspan></text>
-      <text id="Circuito_impreso_moderno" data-name="Circuito impreso moderno" transform="translate(7 9)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="15">Circuito impreso moderno</tspan></text>
+      <text id="Placa_de_circuito_impreso_moderno" data-name="Placa de circuito impreso moderno" transform="translate(7 9)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="15">Placa de circuito impreso moderno</tspan></text>
     </g>
   </g>
 </svg>
