@@ -125,7 +125,7 @@
             img(src="@/assets/curso/tema2/img-11.png", alt="Texto que describa la imagen" data-aos="zoom-in-up")
         .col-12.col-md-4
           span No se debe abrir un disco duro (HDD) si no se cuenta con un cuarto limpio. 
-          span.colr.text-bold Un partícula de polvo, por minúscula que parezca, puede ocasionar un mal funcionamiento de este, 
+          span.colr.text-bold Una partícula de polvo, por minúscula que parezca, puede ocasionar un mal funcionamiento de este, 
           | normalmente rayones en la superficie del disco duro, daño que es irreversible y que incurre en pérdida irrecuperable de datos.
           .cajon.bgr_5.p-4.mt-4
             p Los módulos electrónicos de los equipos de cómputo, por su parte, son sensibles a las descargas electrostáticas; es así como se debe usar una protección especial para trabajar con estos, la cual puede ser una manilla o una manta antiestática; de no contar con estos elementos, se debe descargar el cuerpo agarrando periódicamente una superficie metálica conectada a tierra.
