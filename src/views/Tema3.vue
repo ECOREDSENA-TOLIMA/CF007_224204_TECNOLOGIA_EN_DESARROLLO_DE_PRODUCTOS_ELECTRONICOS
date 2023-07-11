@@ -10,7 +10,7 @@
     .row.mb-5
       .col-12.col-md-3.mb-3.mb-md-0
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-          h5 Figura 9.
+          h5 Figura 10.
           span <em>Torre de comunicación</em>
         span Cuando se trabaja con ensambles eléctricos se pueden enfrentar riesgos de diferentes tipos, siendo el eléctrico el más común. Aunque también existen riesgos de tipo mecánico, sobre todo cuando se está fabricando la placa de circuito impreso y dependiendo del tipo de fabricación que se esté utilizando, se pueden enfrentar riesgos de cortes en la piel, riesgos de esquirlas de material en los ojos, incluso riesgo químico si el trabajo de soldadura es manual, ya que los vapores emanados al soldar pueden ser inhalados ocasionando problemas respiratorios.
       .col-12.col-md-5.mb-3.mb-md-0
@@ -25,7 +25,7 @@
       h2 3.1 Normas internacionales y nacionales de diseño y manufactura de productos electrónicos
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 10.
+      h5 Figura 11.
       span <em>Trabajador en alta tensión</em>
 
     .row.mb-5
@@ -42,7 +42,7 @@
         p El Reglamento técnico de instalaciones eléctricas (RETIE), es un documento técnico válido para Colombia emitido por el Ministerio de Minas y Energía. Este reglamento tiene como anexo la norma NTC 2050 que indica el Código Eléctrico Colombiano vigente desde noviembre de 1998. En este reglamento se definen algunos parámetros para el trabajo con equipos electrónicos.
         .bgr_16.p-4.mb-3
           span.colr.text-bold.mb-0 Las descargas en los equipos electrónicos se pueden evitar. 
-          | En términos generales para los trabajos de mantenimiento, es suficiente con usar manillas o mantas electrostáticas para evitar sobrecargas a los elementos sensibles. Estos accesorios ayudan a proteger los elementos electrónicos, pero aumentan el riesgo a la persona ya que lo conectan directamente a tierra, exponiéndolo a sobrecargas, por eso es importante identificar los elementos con los que se pueden trabajar; por ejemplo, y como norma general, no se deben usar accesorios para electricidad estática con los equipos energizados.
+          | En términos generales para los trabajos de mantenimiento, es suficiente con usar manillas o mantas electrostáticas para evitar sobrecargas a los elementos sensibles. Estos accesorios ayudan a proteger los elementos electrónicos, pero aumentan el riesgo a la persona ya que lo conectan directamente a tierra, exponiéndola a sobrecargas, por eso es importante identificar los elementos con los que se pueden trabajar; por ejemplo, y como norma general, no se deben usar accesorios para electricidad estática con los equipos energizados.
       .col-12.col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img-15.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
@@ -61,12 +61,26 @@
 
     .row.mb-5
       .col-12.col-md-4.mb-3.mb-md-0
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+          h5 Figura 12.
+          span <em>Contactos eléctricos de la manilla antiestática</em>
         figure
           img(src='@/assets/curso/tema2/img-16.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
+          
       .col-12.col-md-4.mb-3.mb-md-0
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+          h5 Figura 13.
+          span <em>Bolsa antiestática</em>
+          br
+          br
         figure
           img(src='@/assets/curso/tema2/img-17.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
       .col-12.col-md-4(data-aos="zoom-in")
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
+          h5 Figura 14.
+          span <em>Espuma antiestática</em>
+          br
+          br
         figure
           img(src='@/assets/curso/tema2/img-18.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")
 
@@ -79,7 +93,7 @@
       h2 3.3 Características e impacto de la compatibilidad electromagnética
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 11.
+      h5 Figura 15.
       span <em>Torre panorámica Tokio</em>
 
     
@@ -92,16 +106,16 @@
         p.mb-0 Todo equipo electrónico, necesita de un fluido eléctrico para su funcionamiento. Por regla este fenómeno físico lleva asociado un campo magnético; es decir, todo electrón fluyendo a través de un conductor lleva asociado un campo magnético, el cual se manifiesta como líneas de flujo magnético alrededor del conductor. Fue Michael Faraday en 1821 quien realizó los estudios que llevaron a entender mejor este fenómeno y a darle una utilidad práctica, revolucionando por completo el mundo que conocíamos hasta el momento.
         .col-12.col-md-12
           .cajon.bgr_5.p-4.mt-4
-            p Ahora bien, lo contrario también es cierto, un campo magnético en movimiento cruzando a un conductor, ocasionará que los electrones se muevan. Este fenómeno tiene mucha aplicación y fue lo que permitió la construcción de los generadores eléctricos así como también la trasmisión de señales a través del espacio vacío; esto dio origen a las telecomunicaciones.      
+            p Ahora bien, lo contrario también es cierto, un campo magnético en movimiento cruzando a un conductor, ocasionará que los electrones se muevan. Este fenómeno tiene mucha aplicación y fue lo que permitió la construcción de los generadores eléctricos, así como también la trasmisión de señales a través del espacio vacío; esto dio origen a las telecomunicaciones.      
       .col-12.col-md-9.mb-3.mb-md-0.py-5.my-5(data-aos="fade-right")
-        p Resulta que las emisiones de señales pueden ser perjudiciales para otros equipos, si no son controladas; son múltiples la señales electromagnéticas emitidas día a día, solo imagina, cada emisora de radio, cada canal de televisión, cada aparato de celular, funcionan por señales que viajan en el espacio, es natural pensar que la señal que emite mi celular puede afectar al de mi compañero, o a otro equipo como el televisor o radio, es así en realidad, pero el desarrollador de estos equipos debe tener en cuenta estos parámetros e incluirlos en el diseño. A continuación en la figura 12 se presenta un ejercicio que se puede realizar como comprobación de lo que se ha expuesto.
+        p Resulta que las emisiones de señales pueden ser perjudiciales para otros equipos, si no son controladas; son múltiples la señales electromagnéticas emitidas día a día, solo imagina, cada emisora de radio, cada canal de televisión, cada aparato de celular, funcionan por señales que viajan en el espacio, es natural pensar que la señal que emite mi celular puede afectar al de mi compañero, o a otro equipo como el televisor o radio, es así en realidad, pero el desarrollador de estos equipos debe tener en cuenta estos parámetros e incluirlos en el diseño. A continuación, en la figura 16 se presenta un ejercicio que se puede realizar como comprobación de lo que se ha expuesto.
       .col-12.col-md-3.mt-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img-20.svg', alt='Texto que describa la imagen' data-aos="zoom-in-up")
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Figura 12.
+        h5 Figura 16.
         span <em>Ejercicio</em>
       .d-flex.flex-wrap.p-4.edit-bg-t2(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}"

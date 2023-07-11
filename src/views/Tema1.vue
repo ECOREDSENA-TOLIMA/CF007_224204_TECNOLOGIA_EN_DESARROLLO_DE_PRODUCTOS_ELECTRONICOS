@@ -33,7 +33,7 @@
 
     .row.mb-5
       .col-12.col-md-8.mb-3.mb-md-0
-        p.mb-5(data-aos="fade") Las tarjetas de circuito impreso son utilizadas prácticamente en todos los productos electrónicos, es así como hasta el producto electrónico más diminuto hace uso de ellas. A continuación se presenta una comparación de sus diseños conforme avanzó el tiempo.
+        p.mb-5(data-aos="fade") Las tarjetas de circuito impreso son utilizadas prácticamente en todos los productos electrónicos, es así como hasta el producto electrónico más diminuto hace uso de ellas. A continuación, se presenta una comparación de sus diseños conforme avanzó el tiempo.
 
         TabsC.color-acento-contenido.mb-5
           .py-3.py-md-4(titulo="Placa Antigua")
@@ -42,7 +42,7 @@
                 figure
                   img(src='@/assets/curso/tema1/ilustracion3.svg', alt='Placa Antigua' data-aos="zoom-in")
               .col-md-1    
-              .col-md-5
+              .col-md-5.p-3
                 h4(style="color: #B3009D") Placa Antigua
                 p Antes del circuito impreso era normal encontrar diseños electrónicos que demandaban muchos cables, lo que redunda en mal funcionamiento del equipo debido al ruido electromagnético generado y absorbido; esto además hacía que la labor de mantenimiento fuera muy compleja y frecuente.
           .py-3.py-md-4(titulo="Placa Moderna")
@@ -58,6 +58,10 @@
       .col-12.col-md-4
         figure
           img(src='@/assets/curso/tema1/ilustracion5.svg', alt='Texto que describa la imagen')
+
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
+      h5 Figura 3
+      span <em>Normas IPC y aplicación según componente en la tarjeta</em>
 
     .bgr_13.p-5.mb-5
       .row
@@ -77,7 +81,7 @@
       h2 1.2 Procedimientos y criterios de inspección de calidad en ensamble electrónico
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
-      h5 Figura 3
+      h5 Figura 4
       span <em>Soldadura correcta</em>
 
     .row.mb-5
@@ -95,7 +99,7 @@
       
     .col-xl-10.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 4.
+          h5 Figura 5.
           span <em>Tipos de normas.</em>
         .d-flex.flex-wrap.p-4.edit-bg-t2(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}"
@@ -172,7 +176,7 @@
             .col-md-6.mb-4.mb-md-0
               br
               br
-              p Otro parámetro para tener en cuenta es la distribución de los componentes electrónicos en la placa, muchos <em>software</em> de modelado de tarjetas lo hacen automáticamente y algunos parámetros ya están establecidos, sin embargo muchas veces se hace necesario reordenar algunos componentes, sobre todo el de separar la parte análoga de la parte digital, en las tarjetas que contienen estos dos tipos de componentes.
+              p Otro parámetro para tener en cuenta es la distribución de los componentes electrónicos en la placa, muchos <em>softwares</em> de modelado de tarjetas lo hacen automáticamente y algunos parámetros ya están establecidos, sin embargo, muchas veces se hace necesario reordenar algunos componentes, sobre todo el de separar la parte análoga de la parte digital, en las tarjetas que contienen estos dos tipos de componentes.
             .col-md-6
               figure
                 img(src='@/assets/curso/tema1/img-3.png', alt='Texto que describa la imagen' data-aos="zoom-in-up")

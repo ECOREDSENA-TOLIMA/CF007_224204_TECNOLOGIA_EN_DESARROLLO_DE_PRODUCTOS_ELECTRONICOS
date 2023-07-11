@@ -177,7 +177,7 @@ export default {
     {
       tema: 'Seguridad y salud en el trabajo',
       referencia:
-        'Ley 1552 de 2012. [Ministerio del Trabajo]. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012.',
+        'Ley 1562 de 2012. [Ministerio del Trabajo]. Por la cual se modifica el Sistema de Riesgos Laborales y se dictan otras disposiciones en materia de Salud Ocupacional. Julio 11 de 2012.',
       tipo: 'Texto',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_1562_2012.html#:~:text=Tiene%20por%20objeto%20mejorar%20las,trabajadores%20en%20todas%20las%20ocupaciones.',
@@ -203,7 +203,7 @@ export default {
     {
       termino: 'Amortiguador',
       significado:
-        'Dispositivo que sirve para compensar y disminuir el efecto de choques, sacudidas o movimientos bruscos en aparatos mecánicos. (Real Academia Española, 2020',
+        'Dispositivo que sirve para compensar y disminuir el efecto de choques, sacudidas o movimientos bruscos en aparatos mecánicos. (Real Academia Española, 2020)',
     },
     {
       termino: 'Apantallamiento',
@@ -280,7 +280,12 @@ export default {
     },
     {
       referencia:
-        'Pallás, R. (2007). <em>Instrumentos electrónicos básicos.</em> Alfaomega. Real Academia de la Lengua Española. (2020). Diccionario de la lengua española.',
+        'Pallás, R. (2007). <em>Instrumentos electrónicos básicos.</em> Alfaomega. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Real Academia de la Lengua Española. (2020). Diccionario de la lengua española.',
       link: 'https://dle.rae.es/electrost%C3%A1tico',
     },
     {
@@ -314,40 +319,42 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Rocío Sánchez Ruiz',
-          cargo: 'Experto Temático',
-          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+          nombre: 'Gewin Alfonso Fernández Cáceres ',
+          cargo: 'Instructor ',
+          centro: 'Regional Atlántico Centro Nacional Colombo Alemán.',
         },
         {
-          nombre: 'Miroslava González H.',
-          cargo: 'Diseñador y Evaluador Instruccional',
-          centro: 'Centro de Gestión Industrial',
+          nombre: 'Miroslava González Hernández ',
+          cargo: 'Diseñador y evaluador instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial.',
         },
         {
-          nombre: 'Juan Gilberto Giraldo Cortés',
+          nombre: 'Sergio Augusto Ardila Cortes',
           cargo: 'Diseñador Instruccional',
-          centro: '',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Álix Cecilia Chinchilla Rueda',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Viviana Esperanza Herrera Quiñones',
-          cargo: 'Asesora Metodológica',
-          centro: 'Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano',
-          cargo: 'Asesor Pedagógico',
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Revisora Metodológica y Pedagógica ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica.',
         },
         {
-          nombre: 'Darío González',
-          cargo: 'Revisión y Corrección de Estilo',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
+          cargo: 'Asesor pedagógico ',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez ',
+          cargo: 'Diseñador y evaluador instruccional ',
+          centro:
+            'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -355,29 +362,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador Web',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
+          nombre: 'Francisco Javier Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Storyboard e Ilustración',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y Producción Audiovisual',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Sebastián Trujillo Afanador',
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco Javier Vásquez Suárez',
           cargo: 'Actividad Didáctica',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
