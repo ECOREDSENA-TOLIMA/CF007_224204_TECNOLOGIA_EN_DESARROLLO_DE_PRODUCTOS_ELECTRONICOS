@@ -61,7 +61,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
       h5 Figura 3
-      span <em>Normas IPC y aplicación según componente en la tarjeta</em>
+      span <em>Equipos de comunicación</em>
 
     .bgr_13.p-5.mb-5
       .row
@@ -69,10 +69,10 @@
           p.mb-0 La aplicación de estas tarjetas de circuito impreso permitió minimizar los diseños, haciendo productos más pequeños y eficientes en términos energéticos, lo que conllevó al uso de baterías y contribuyó con su portabilidad, como característica principal. De igual forma, a medida que los componentes se hicieron más reducidos, también se surge la necesidad de crear placas más pequeñas con pistas más delgadas, evolucionando también su proceso de fabricación, tal como se presentan en las siguientes imágenes de equipos de comunicación.
         .col-12.col-md-4
           figure
-            img(src='@/assets/curso/tema1/ilustracion6.png', alt='Texto que describa la imagen' data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/ilustracion6.svg', alt='Texto que describa la imagen' data-aos="zoom-in")
         .col-12.col-md-4
           figure
-            img(src='@/assets/curso/tema1/ilustracion7.png', alt='Texto que describa la imagen' data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/ilustracion7.svg', alt='Texto que describa la imagen' data-aos="zoom-in")
 
     Separador
 
