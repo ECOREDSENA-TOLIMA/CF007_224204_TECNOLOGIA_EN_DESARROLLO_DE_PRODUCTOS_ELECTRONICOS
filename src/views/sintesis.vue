@@ -3,8 +3,9 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 A continuación, se describe el tema principal del Componente formativo Inspección de tarjetas electrónicas basado en los conceptos relacionados con el ensamble de tarjetas electrónicas teniendo en cuenta: las normas y técnicas que aplican y los procedimientos para el ensamble, la seguridad y la normativa vigente, la definición de los riesgos en el proceso de ensamble enfocados en buscar proteger la vida y conservar el medio ambiente.
-    
+    p En este componente formativo se tratan conceptos relacionados con el ensamble de tarjetas electrónicas, las normas técnicas que aplican y los procedimientos para el ensamble, buscando proteger la vida y conservar el medio ambiente.
+    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente. 
+
     .row.justify-content-center
       .col-lg-12.mb-5
         figure

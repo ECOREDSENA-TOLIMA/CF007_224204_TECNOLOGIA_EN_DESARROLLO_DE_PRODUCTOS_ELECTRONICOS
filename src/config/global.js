@@ -269,7 +269,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Biegelmeier, G. (1986). Efectos de la corriente eléctrica en humanos y ganado. VDE-Verlag. Jorge Valencia Cuesta & Cia. SAS. (s.f.). <em>Bolsas antiestáticas.</em> ',
+        'Biegelmeier, G. (1986). Efectos de la corriente eléctrica en humanos y ganado. VDE-Verlag.',
+      link: '',
+    },
+    {
+      referencia:
+        'Jorge Valencia Cuesta & Cia. SAS. (s.f.). <em>Bolsas antiestáticas.</em> ',
       link: 'https://www.controlestatica.com/bolsas-antiestaticas.',
     },
     {
