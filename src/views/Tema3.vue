@@ -22,7 +22,7 @@
           p Por otra parte, algunos componentes electrónicos pueden explotar, tal es el caso de los capacitores mal polarizados, dependiendo de la capacitancia, lo que puede ocasionar daños en los ojos y el rostro. Los elementos de potencia, como SCR y demás tiristores, también pueden explotar y expulsar esquirlas en forma de proyectil, si son sometidos a cortocircuito de altas corrientes.
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Normas internacionales y nacionales de diseño y manufactura de productos electrónicos
+      h2 3.1 Concepto y afectaciones de descargas electroestáticas y sobrecargas eléctricas
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down-right")
       h5 Figura 11.
@@ -49,7 +49,7 @@
 
     Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Formas de uso y mantenimiento de accesorios
 
     .p-3.mb-4.d-flex.flex-wrap.align-items-center
